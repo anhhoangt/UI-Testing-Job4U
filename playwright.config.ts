@@ -8,9 +8,14 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://jobtrack4u.onrender.com',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+  },
+  timeout: 30000,
+  expect: {
+    timeout: 10000,
   },
 
   projects: [
