@@ -1,0 +1,31 @@
+{
+  "name": "ui-testing-job4u",
+  "version": "1.0.0",
+  "description": "UI Testing project using Playwright and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:debug": "npx playwright test --debug",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit",
+    "report": "npx playwright show-report",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "ui-testing",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.2",
+    "typescript": "^5.9.3"
+  }
+}
