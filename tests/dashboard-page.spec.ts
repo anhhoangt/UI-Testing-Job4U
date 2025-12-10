@@ -4,13 +4,10 @@ import { DashboardPage } from '../pages/DashboardPage';
 import { VALID_LOGIN_DATA, generateUniqueEmail } from './test-data/auth.data';
 import {
   SIDEBAR_NAVIGATION_ITEMS,
-  EXPECTED_NAV_ITEMS_COUNT,
-  STATS_CARDS,
   CHART_CONFIG,
   VIEWPORT_SIZES,
   EDGE_CASE_USERS,
   generateEdgeCaseEmail,
-  URL_PATTERNS,
   DATA_VALIDATION,
 } from './test-data/dashboard.data';
 
@@ -500,7 +497,6 @@ test.describe('Dashboard Page Tests', () => {
       test('should maintain chart state after navigation and return', async ({ page }) => {
         // Toggle chart to area
         await dashboardPage.toggleChart();
-        const isAreaChart = await dashboardPage.isAreaChart();
 
         // Navigate away
         await dashboardPage.navigateToAllJobs();
