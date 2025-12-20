@@ -15,7 +15,7 @@ This guide explains how to configure Jenkins to run Playwright tests for the UI-
 
 ## Jenkins Configuration Steps
 
-### Step 1: Install Required Plugins..........
+### Step 1: Install Required Plugins...........
 
 1. Go to **Manage Jenkins** → **Manage Plugins**
 2. Click on **Available** tab
