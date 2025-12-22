@@ -6,7 +6,7 @@ End-to-end UI testing project for JobTrack4U application using Playwright and Ty
 
 ## 🚀 Features
 
-- **Page Object Model (POM)** architecture for maintainable tests..
+- **Page Object Model (POM)** architecture for maintainable tests...
 - **TypeScript** for type safety and better IDE support
 - **Multi-browser testing** (Chromium, Firefox, WebKit)
 - **CI/CD Integration** with GitHub Actions and Jenkins
